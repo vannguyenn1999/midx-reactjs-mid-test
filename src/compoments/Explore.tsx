@@ -10,10 +10,11 @@ const Explore: FC<ExploreProps> = ({ dataExpore }) => {
     <div className="relative overflow-hidden rounded-lg">
       <img
         className="w-full object-cover"
-        src={`/images/${dataExpore.image}`}
+        // src={`/images/${dataExpore.image}`}
+        src={`/images/spy-carousel.png`}
         alt={dataExpore.movieName}
       />
-      <div className="absolute inset-0 bg-linear-to-br from-black/60 via-black/40 to-transparent"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-black/60 via-black/20 to-transparent"></div>
 
       <div className="absolute left-11 bottom-10 max-w-[30%] text-[#FFFFFF] bg-transparent bg-auto">
         <span className="text-3xl font-semibold mb-3! block!">

@@ -15,14 +15,14 @@ const Card: FC<CardProps> = ({ imgae, movieName, episode }) => {
         alt={movieName}
       />
 
-      <div className="absolute left-1/2 bottom-13 -translate-x-1/2 flex flex-col items-center justify-center w-full">
+      <div className="absolute left-1/2 bottom-10 -translate-x-1/2 flex flex-col items-center justify-center w-full">
         <span className="text-white drop-shadow-md text-[16px] font-normal">
           Episode {episode}
         </span>
       </div>
 
-      <div className="absolute left-1/2 bottom-0 -translate-x-1/2 flex flex-col items-center justify-center w-full">
-        <span className="text-white drop-shadow-md text-[16px] font-bold text-center">
+      <div className="absolute left-1/2 bottom-0 -translate-x-1/2 w-full px-2 h-9 flex items-start justify-center">
+        <span className="text-white text-[15px] font-bold text-center line-clamp-2 leading-tight">
           {movieName}
         </span>
       </div>
