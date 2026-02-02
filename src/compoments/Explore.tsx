@@ -9,9 +9,10 @@ const Explore: FC<ExploreProps> = ({ dataExpore }) => {
   return (
     <div className="relative overflow-hidden rounded-lg">
       <img
-        className="w-full object-cover"
-        // src={`/images/${dataExpore.image}`}
-        src={`/images/spy-carousel.png`}
+        className="w-full object-cover max-h-100 h-full"
+        src={`/thumbnails/${dataExpore.thumbnails}`}
+        // src={`/images/spy-carousel.png`}
+        // src={`/thumbnails/captsu-card.jpg`}
         alt={dataExpore.movieName}
       />
       <div className="absolute inset-0 bg-linear-to-br from-black/60 via-black/20 to-transparent"></div>
